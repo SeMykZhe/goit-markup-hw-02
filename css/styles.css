@@ -1,0 +1,128 @@
+
+:root {
+    --title-text-color: #000000;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+  }
+  
+  body {
+    background-color: var(--primary-white-color);
+    font-family: Roboto, sans-serif;
+    color: #757575;
+  }
+  
+  /* Logo */
+  
+  .logo {
+    color: #000000;
+    font-family: Raleway;
+    font-style: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    } 
+
+  .web {
+    color: #2196F3;
+  }
+  
+    /* Site nav */
+  
+  .site-nav {
+    color: var(--accent-color);
+  }
+  
+  .site-nav .link:hover,
+  .site-nav .link:focus {
+    color: var(--accent-color);
+  }
+   
+    
+  /* Hero */
+  .hero {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
+}
+
+  .subject {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: 700;
+    font-size: 44px;
+    line-height: 1,36;
+}
+
+.btn {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    font-style: 700;
+    font-size: 16px;
+    line-height: 1,89;
+}
+    
+.title {
+    color: #FFFFFF;
+}
+
+.slogan {
+    color: #212121;
+    font-style: 700;
+    font-size: 14px;
+    line-height: 1,14;
+}
+
+.subtitle {
+font-size: 14px;
+line-height: 1,71;
+}
+
+  
+.list {
+    color: #212121;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 1,17;
+  }
+
+  .stuff {
+    color: #212121;
+    font-style: 700;
+    font-size: 36px;
+    line-height: 1,17;
+    }
+
+  .stuff-list {
+    color: #212121;
+    font-style: 400;
+    font-size: 16px;
+    line-height: 1,19;
+} 
+
+.projects {
+    color: #FFFFFF;
+}
+    
+.buttons {
+    color: #212121;
+font-style: 400; 
+font-size: 16px;
+line-height: 1.63;
+}
+
+
+.buttons .link:hover,
+.buttons .link:focus {
+    background-color: var(--accent-color)
+}
+
+.project-list {
+    color: #212121;
+    font-style: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.filter {
+    font-size: 16px;
+    line-height: 1,86;
+}
