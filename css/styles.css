@@ -46,22 +46,15 @@ ul { list-style: none; }
 /*Header section*/
 .header 
 
-.logo {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 1.2;
-  color: var(--logo-cl);
-  letter-spacing: 0.02px;
-}
+/*.logo {}*/
 
 .web {
   color: #2196f3;
   font-family: Raleway;
   font-weight: 700;
-  font-size: 30px;
-  line-height: 1.2;
-  letter-spacing: 0.02px;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03px;
 }
 
 /*.header-nav {}*/
