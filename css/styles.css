@@ -22,9 +22,12 @@ a {
   text-decoration: none;
 }
 
-li {
+/*li {
   display: inline-block;
 }
+*/
+
+ul { list-style: none; }
 
 .buttons {
   color: #212121;
@@ -41,7 +44,9 @@ li {
 }
 
 /*Header section*/
-.header .logo {
+.header 
+
+.logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 30px;
@@ -52,6 +57,11 @@ li {
 
 .web {
   color: #2196f3;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: 0.02px;
 }
 
 /*.header-nav {}*/
@@ -195,6 +205,12 @@ li {
 
 .studio {
   color: #ffffff;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03px;
+
 }
 
 .footer-adress {
