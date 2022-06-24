@@ -15,7 +15,6 @@ body {
   font-family: var(--main-font);
   color: var(--main-txt-cl);
   font-size: 16px;
-  line-height: 1.62;
 }
 
 a {
@@ -51,7 +50,7 @@ ul { list-style: none; }
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03px;
+  letter-spacing: 0.03em;
   color: #212121;
 }
 
@@ -61,7 +60,7 @@ ul { list-style: none; }
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03px;
+  letter-spacing: 0.03em;
 }
 
 /*.header-nav {}*/
@@ -71,7 +70,7 @@ ul { list-style: none; }
   font-size: 14px;
   line-height: 1.14;
   color: #212121;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
 }
 
 .header-nav-link:focus,
@@ -85,7 +84,7 @@ ul { list-style: none; }
   font-size: 14px;
   line-height: 1.14;
   color: #757575;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
 }
 
 .header-contacts:hover,
@@ -107,7 +106,7 @@ ul { list-style: none; }
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
 }
 
 .hero-btn {
@@ -117,21 +116,21 @@ ul { list-style: none; }
   line-height: 1.88;
   color: #ffffff;
   background-color: #2196f3;
-  letter-spacing: 0.06px;
+  letter-spacing: 0.06em;
 }
 
 /*Features section*/
 
 .title {
   color: #ffffff;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
 }
 
 .slogan {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
 }
 
 .subtitle {
@@ -139,7 +138,7 @@ ul { list-style: none; }
   font-size: 14px;
   line-height: 1.71;
   color: #757575;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
 }
 
 /*Collaboration section*/
@@ -147,21 +146,23 @@ ul { list-style: none; }
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03px;
+  letter-spacing: 0.03em;
 }
 
 /*Staff section*/
 .stuff-list {
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03px;
+  letter-spacing: 0.03em;
 }
 
 .stuff-position {
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.19;
   color: #757575;
-  letter-spacing: 0.03px;
+  letter-spacing: 0.03em;
 }
 
 /*Portfolio section*/
@@ -170,7 +171,7 @@ ul { list-style: none; }
   font-family: Roboto, sans-serif;
   font-weight: 500;
   line-height: 1.62;
-  letter-spacing: 0.03px;
+  letter-spacing: 0.03em;
 }
 
 /*.portfolio-btn .link:hover,
@@ -188,14 +189,14 @@ ul { list-style: none; }
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06px;
+  letter-spacing: 0.06em;
 }
 
 .filter {
   font-size: 16px;
   line-height: 1.88;
   color: #757575;
-  letter-spacing: 0.03px;
+  letter-spacing: 0.03em;
 }
 
 /*Footer section*/
@@ -209,7 +210,7 @@ ul { list-style: none; }
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03px;
+  letter-spacing: 0.03em;
 
 }
 
@@ -219,7 +220,7 @@ ul { list-style: none; }
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
-  letter-spacing: 0.03px;
+  letter-spacing: 0.03em;
 }
 
 .footer-link {
@@ -227,6 +228,6 @@ ul { list-style: none; }
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: #757575;
-  letter-spacing: 0.02px;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.02em;
 }
